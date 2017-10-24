@@ -3,7 +3,10 @@ import scipy.signal as spy
 from numpy.fft import * 
 import numpy as np
 from sympy import pprint
-
+#=======================================
+#For 1D Convolution  Y = AT(Gg.*BTd)
+#For 2D Convolution  Y = AT(GgGt.*BTdB)A
+#=======================================
 #F(2,3)
 #=======================================
 # 1. direct convolution 
